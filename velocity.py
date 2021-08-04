@@ -3,11 +3,11 @@ def velocity(v0, a, t):
 
 
 
-def main()
+def main():
     v0 = 0
     t = np.arange(0,100,1)
     a = 10
-    velocity = v0, a, t)
+    velocity = (v0, a, t)
 
 
 
