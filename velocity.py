@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 def velocity(v0, a, t):
     return (v0 + a*t)
 
+def displacement(s0, v0, a, t):
+    return (s0 + v0*t + 0.5*a*t**2)
 
 def plot_dis(x,y, title, xlabel, ylabel, plot_name):
     plt.plot(x, y)
