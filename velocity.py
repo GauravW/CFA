@@ -1,13 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def velocity(v0, a, t):
     return (v0 + a*t)
 
 
 def main():
     v0 = 0
-    t = np.arange(0,100,1)
+    t = np.arange(0,200,1)
     a = -10
     vel = velocity(v0, a, t)
 
